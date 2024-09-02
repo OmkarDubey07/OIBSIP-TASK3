@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Temperature Converter | Code with OD</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <span class="time">9:26</span>
+        <span>
+          <ion-icon name="cellular"></ion-icon>
+          <ion-icon name="wifi"></ion-icon>
+          <ion-icon name="battery-full"></ion-icon>
+        </span>
+      </div>
+      <h2>Temperature Converter</h2>
+      <div class="user-input-box">
+        <div class="degree">
+          <label for="degree">Degrees</label><br /> <br>
+          <input type="number" name="degree" id="degree" />
+        </div>
+        <div class="fahre">
+          <label for="type">Type</label><br> <br>
+          <select name="selection" id="type">
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="celsius">Celsius</option>
+          </select>
+        </div>
+      </div>
+      <div class="result">
+        <span>Result</span>
+        <p>22.22c</p>
+      </div>
+      <div class="btn">
+        <button>Convert</button>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="./script.js"></script>
+    <!-- icon file -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
