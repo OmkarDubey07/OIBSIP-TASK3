@@ -19,11 +19,13 @@
       <h2>Temperature Converter</h2>
       <div class="user-input-box">
         <div class="degree">
-          <label for="degree">Degrees</label><br /> <br>
-          <input type="number" name="degree" id="degree" />
+          <label for="degree">Degrees</label><br />
+          <br />
+          <input type="number" required name="degree" id="degree" />
         </div>
         <div class="fahre">
-          <label for="type">Type</label><br> <br>
+          <label for="type">Type</label><br />
+          <br />
           <select name="selection" id="type">
             <option value="fahrenheit">Fahrenheit</option>
             <option value="celsius">Celsius</option>
@@ -32,7 +34,7 @@
       </div>
       <div class="result">
         <span>Result</span>
-        <p>22.22c</p>
+        <p class="resultShow">0</p>
       </div>
       <div class="btn">
         <button>Convert</button>
