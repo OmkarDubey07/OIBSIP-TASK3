@@ -1,6 +1,14 @@
 const resultShow = document.querySelector(".result .resultShow");
 const resultBtn = document.querySelector(".btn button");
+const timeShow = document.querySelector('.head .time') ; 
 
+// adding real time 
+let realDate = new Date();
+let hour = realDate.getHours();
+let min = realDate.getMinutes();
+timeShow.innerHTML = `${hour}:${min}`;
+
+// Main function
 resultBtn.addEventListener("click", () => {
   const userInput = document.querySelector(".degree #degree").value;
   const userType = document.querySelector(".fahre #type").value;
