@@ -19,11 +19,11 @@ resultBtn.addEventListener("click", () => {
   } else {
     if (userType == "fahrenheit") {
       let fahrenheit = ((userInput - 32) * 5) / 9;
-      resultShow.innerHTML = fahrenheit.toFixed(4);
+      resultShow.innerHTML = `${fahrenheit.toFixed(4)} \u00B0C`;
       resultShow.style.color = "black";
     } else if (userType == "celsius") {
       let celsius = (userInput * 9) / 5 + 32;
-      resultShow.innerHTML = celsius.toFixed(4);
+      resultShow.innerHTML = `${celsius.toFixed(4)} \u00B0F` ;
       resultShow.style.color = "black";
     }
   }

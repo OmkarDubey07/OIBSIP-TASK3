@@ -69,11 +69,13 @@ body {
 }
 
 .user-input-box select {
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 600;
   width: 100%;
   outline: none;
   border: none;
   border-bottom: #ebebeb 2px solid;
+  background-color: #ffffff;
   padding: 5px 5px;
 }
 .result {
